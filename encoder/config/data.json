@@ -1,0 +1,12 @@
+{
+    "DataUrl": {
+        "Random": ["./data/Asteroids-v4/_random_/",
+                   "./data/BeamRider-v4/_random_/",
+                   "./data/Seaquest-v4/_random_/",
+                   "./data/Qbert-v4/_random_/",
+                   "./data/Pong-v4/_random_/",
+                   "./data/SpaceInvaders-v4/_random_/"],
+        "Gamer": [],
+        "Agent": []
+    }
+}
