@@ -37,7 +37,7 @@ class Trainer:
     def _save_snapshot(self, epochs, best_loss):
         snapshot = {
             'epochs': epochs,
-            'model_state_dict': self.model.module.state_dict(),
+            'model_state_dict': self.model.state_dict(),  # Remove .module here
             'optimizer_state_dict': self.optimizer.state_dict(),
             'best_loss': best_loss
         }
